@@ -22,13 +22,43 @@ const heroes = ["shaktiman" , "nagraj" , "doga"]
 
 //objects - are written in curly braces {}
 
-let myObj = {
-    name:"prateek"
-    age: 23
+// let myObj = {
+//     name:"prateek"
+//     age: 23
+// }
+
+// //function - function is written like this 
+
+// function(){
+//     //console.log("hello world ")
+// }
+
+
+/****************************************************************************************************/
+
+// memory types 
+
+// stack (primitive type) and heap (non primitive type)
+// stack 
+let myYoutube = "prateekYoutube"
+
+let changeYoutube = myYoutube
+changeYoutube = "tholiyaYoutube"
+
+console.log(myYoutube);
+console.log(changeYoutube);
+
+
+// heap
+
+let userOne = { // object 
+  email : "prateek@gmail.com" ,
+  upi : "prateek@ybl"
 }
 
-//function - function is written like this 
+userTwo = userOne
 
-function(){
-    console.log("hello world ")
-}
+userTwo.email = "tholiya@gmail"
+
+console.log(userOne.email);
+console.log(userTwo.email);
