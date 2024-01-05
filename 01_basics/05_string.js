@@ -3,6 +3,8 @@
 // let repoNumber = 40  
 // console.log(name + repoNumber); // this is old way to print so we dont use this method in modern era 
 
+
+// this is string interpolation 
 // console.log(`hello my name is ${name} and my repo number is ${repoNumber}`);    // plz follow this syntax 
 // so in this dollar curly bracket sign ${} we can insert our variable which we want to concataned string in output  
 
